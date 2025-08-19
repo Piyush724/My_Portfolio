@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    .header {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    }
+    
+    .header img {
+    height: 80px; 
+    width: 60px;
+    margin-right: auto; 
+    }
+    
+    .header h3 {
+    flex-grow: 1; /* Allows the title to occupy center space */
+    text-align: center;
+    margin-right: 50px; /* Ensures centering by adjusting spacing */
+    }
+    /* Parent Container with Background Image */
+    .container {
+    padding: 100px 0px 0px 0px;
+    background-image: url('./gettyimages-458732261-612x612.jpg');
+    }
+    .content{
+    padding-top: 60px;
+    display: flex;
+    height: 600px;
+    }
+    /* Personal Section */
+    .personal {
+    width: 50%;
+    background-color: rgba(250, 15, 15, 0.548);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+    }
+    /* Professional Section */
+    .professional {
+    width: 50%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 251, 0, 0.425);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 60px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+    }
+    /* Footer Styling */
+    #footer {
+    display: flex;
+    justify-content: center; /* Center align icons */
+    align-items: center;
+    background: #222; /* Dark background for contrast */
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    /* Footer Icons */
+    #footer a {
+    display: inline-block; /* Ensures spacing works properly */
+    margin: 0 15px; /* Space between icons */
+    text-align: none;
+    }
+    #footer img {
+    width: 30px; /* Keeps icons uniform */
+    height: 30px; /* Maintains aspect ratio */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* 
+    Smooth effect */
+    }
+    /* Hover Effect */
+    #footer img:hover {
+    transform: scale(1.2); /* Zoom effect */
+    opacity: 0.8; /* Slight transparency */
+    }
